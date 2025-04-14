@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://byiptufpic6dx"]
+
+[ext_resource type="Script" uid="uid://8gq67f61jt4f" path="res://managers/enemy_manager.gd" id="1_e74v5"]
+
+[node name="EnemyManager" type="Node"]
+script = ExtResource("1_e74v5")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
