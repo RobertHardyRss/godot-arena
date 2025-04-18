@@ -104,7 +104,7 @@ _data = {
 &"swing": SubResource("Animation_n7ik2")
 }
 
-[node name="SwordAbility" type="Node"]
+[node name="SwordAbility" type="Node2D"]
 
 [node name="Area2D" type="Area2D" parent="."]
 
@@ -121,3 +121,4 @@ flip_h = true
 libraries = {
 &"": SubResource("AnimationLibrary_ld2r6")
 }
+autoplay = "swing"

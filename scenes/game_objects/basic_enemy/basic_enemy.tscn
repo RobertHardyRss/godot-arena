@@ -7,6 +7,7 @@
 radius = 7.0
 
 [node name="BasicEnemy" type="CharacterBody2D" groups=["enemy"]]
+motion_mode = 1
 script = ExtResource("1_bw1ld")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
